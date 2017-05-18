@@ -1,0 +1,198 @@
+/* SASS VARIABLES */
+/* GLOBAL STYLES */
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.error-flag {
+  display: inline-block;
+  width: 83%;
+  margin-bottom: 15px;
+  overflow: auto;
+  background-color: #de3c46;
+  color: white;
+  padding: 10px;
+  text-align: center; }
+  .error-flag:empty {
+    padding: 0px; }
+
+.ngHidden {
+  display: none !important; }
+
+.ngVisible {
+  display: block !important; }
+
+.row .col {
+  padding: 0px; }
+
+.row {
+  margin-bottom: 0px; }
+
+.link {
+  color: #1946ba; }
+
+.tiny-text {
+  font-size: 0.8em;
+  text-align: center; }
+
+.intro-text {
+  text-align: center; }
+  .intro-text h1 {
+    font-size: 1.7rem; }
+  .intro-text p {
+    margin-bottom: 25px; }
+
+.card {
+  margin: 0px;
+  padding: 25px; }
+
+select {
+  padding: 10px; }
+
+option {
+  color: #1946ba; }
+
+option:hover {
+  background-color: #CAC8C8; }
+
+select {
+  display: block !important; }
+
+.bg-green {
+  background-color: #94d60a !important; }
+
+.bg-red {
+  background-color: #de3c46 !important; }
+
+.card-content ul.stepper {
+  margin: 0px;
+  margin-left: -24px; }
+
+/* Materialize Form Reset */
+.input-field input:focus + label {
+  color: #77777A; }
+
+.row .input-field input:focus {
+  border-bottom: 1px solid #94d60a;
+  box-shadow: 0 1px 0 0 #94d60a; }
+
+header {
+  overflow: auto; }
+
+.success-button {
+  background-color: #94d60a;
+  color: white; }
+
+.yes-button, .min-steps, .max-steps {
+  background-color: #77777A;
+  color: white; }
+
+.yes-button:hover, .success-button:hover {
+  background-color: #94d60a;
+  color: white; }
+
+.no-button {
+  background-color: #77777A;
+  color: white; }
+
+.no-button:hover {
+  background-color: #de3c46;
+  color: white; }
+
+.more-info {
+  color: #77777A; }
+
+/* END GLOBAL STYLES */
+/* LOGIN PAGE */
+.login-container {
+  background-image: url("../img/delivery.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center; }
+  .login-container .logo-container {
+    border-bottom: 1px solid #94d60a;
+    overflow: auto; }
+  .login-container img {
+    margin-bottom: 10px; }
+  .login-container button {
+    background-color: #77777A;
+    height: 50px; }
+  .login-container button:hover {
+    background-color: #CAC8C8; }
+  .login-container .card {
+    padding: 35px; }
+  .login-container h1 {
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-top: 40px;
+    margin-bottom: 20px; }
+
+/* END LOGIN PAGE */
+/* START CONFIRM DETAILS PAGE  */
+#confirm-details .img-container {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  border: 1px solid #CAC8C8; }
+  #confirm-details .img-container img {
+    height: 100%; }
+
+#parking-restriction-container, #step-count-area-container, #lift-details, #opening-times {
+  display: none; }
+
+/* END CONFIRM DETAILS PAGE */
+/* START SELECT DATE PAGE */
+.date-box:hover {
+  background-color: #239c5c;
+  color: white;
+  transition: background-color .2s ease-out, background .3s ease-in; }
+
+.date-container {
+  height: 45vh;
+  overflow: auto; }
+
+.date-container::-webkit-scrollbar {
+  display: none; }
+
+.date-box {
+  margin: 25px 0px; }
+  .date-box img {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    float: left;
+    margin-top: -8px; }
+  .date-box .date-text {
+    font-size: 3.2vmin;
+    display: inline;
+    line-height: 2;
+    vertical-align: top;
+    margin-left: 15%;
+    font-weight: bold; }
+
+/* END SELECT DATE PAGE */
+/* START SUCCESS PAGE */
+.success-banner {
+  background-color: #94d60a;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+  line-height: 3; }
+
+/* END SUCCESS PAGE */
+/* ERROR HANDLING PAGE */
+.error-banner {
+  background-color: #de3c46;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+  line-height: 3; }
+
+/* END ERROR HANDLING */
+
+/*# sourceMappingURL=app.css.map */
